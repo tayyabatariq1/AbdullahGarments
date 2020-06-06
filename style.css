@@ -1,0 +1,1128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: auto;
+}
+.header-wrapper {
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+    margin: 0 auto;
+    animation: colorchangeabdullah 10s infinite;
+
+}
+@keyframes colorchangeabdullah {
+    0%{ color: red;}
+    10%{ color: #b555ec;}
+    20%{ color: #fff;}
+    30%{ color: #b5f5ec;}
+    45%{ color: #b2b2b2;}
+    50%{ color: #FFCCCC;}
+    60%{ color: #FF00FF;}
+    70%{ color: #00ff40;}
+    80%{ color: orange;}
+    90%{ color: yellow;}
+}
+p {
+    /* width: 100%; */
+text-align: center;
+    font-size: 40px;
+    height: 30%;
+    /* background: yellow; */
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+/* .logo {
+    width: 30%;
+    height: 55%;
+    margin-top: 2%;
+    float: left;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+} */
+
+.slider-image {
+    height: 600px;
+    width: 100%;
+}
+.main-image {
+    height: 100%;
+    width: 100%;
+}
+.main-image img {
+    height: 100%;
+    width: 100%;
+}
+/* start categories section */
+
+.categories-pic {
+    width: 100%;
+    height: 500%;
+    margin-top: -30px;
+}
+.categories-wrapper {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.categories-wrapper span, h2 {
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: -80px;
+    text-decoration: underline;
+    
+}
+.pics {
+    width: 100%;
+    height: 60%;
+    margin-top: 100px;
+}
+.pics .first {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .first img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .first:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .first span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+    
+/* second */
+
+.pics .second {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .second img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .second:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .second span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* third */
+
+.pics .third {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .third img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .third:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .third span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* forth */
+
+.pics .forth {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .forth img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .forth:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .forth span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* fifth */
+
+.pics .fifth {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .fifth img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .fifth:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .fifth span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.pics .first {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .first img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .first:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .first span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* second */
+
+.pics .second {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .second img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .second:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .second span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* third */
+
+.pics .third {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .third img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .third:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .third span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* forth */
+
+.pics .forth {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .forth img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .forth:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .forth span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* fifth */
+
+.pics .fifth {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .fifth img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .fifth:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .fifth span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.pics .first {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .first img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .first:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .first span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* second */
+
+.pics .second {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .second img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .second:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .second span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* third */
+
+.pics .third {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .third img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .third:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .third span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* forth */
+
+.pics .forth {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .forth img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .forth:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .forth span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* fifth */
+
+.pics .fifth {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .fifth img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .fifth:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .fifth span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 15%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+
+}
+.pics .fir {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .fir img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .fir:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .fir span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 25%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* se */
+
+.pics .se {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .se img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .se:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .se span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 25%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* th */
+
+.pics .th {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .th img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .th:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .th span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 25%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* fo */
+
+.pics .fo {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .fo img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .fo:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .fo span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 25%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* fi */
+
+.pics .fi {
+    height: 100%;
+    width: 18.4%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 30px;
+    /* background: red; */
+}
+.pics .fi img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+.pics .fi:hover img {
+    transform: scale(1.5,1.5);
+    overflow: hidden;
+}
+.pics .fi span {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    bottom: 20%;
+    height: 25%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 0;
+    color: #ffff;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+/* end categories section */
+
+/* product section started */
+
+.Product {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+.product_heading {
+    width: 95%;
+    height: 15%;
+    margin: 0 auto;
+
+}
+/* .product_heading span{
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 130%;
+    position: relative;
+    top: -60px;
+    bottom: 4px;
+} */
+.product_heading h2 {
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    /* top: -60px; */
+    top: 40px;
+    bottom: 4px;
+    font-weight: bold;
+
+}
+/* .product_pic {
+    width: 95%;
+    height: 85%;
+    margin: -51px auto;
+    overflow: hidden;
+}
+.product_pic .F {
+    height: 100%;
+    width: 23%;
+    float: left;
+    overflow: hidden;
+    position: relative; 
+    top: 100px;
+}
+.product_pic .F img {
+    height: 100%;
+    width: 100%;
+}
+.overly-product {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.overly-product .overly-wrapper {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 100%;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.overly-wrapper a {
+    text-decoration: none;
+}
+.overly-wrapper a {
+    text-decoration: none;
+} */
+/* #heart {
+    background: white;
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 8px 10px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    color: #bb2d69;
+    margin-left: 10px;
+    right: 14px;
+}
+#search-plus {
+    background: white;
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 8px 10px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    color: #bb2d69;
+    right: 12px;
+} */
+/* .overly-wrapper h2,h3 {
+    display: block;
+    position: relative;
+    top: 100px;
+    right: 5px;
+    color: white;
+}
+.overly-product:hover .overly-wrapper{
+    opacity: 1;
+    height: 100%;
+    bottom: 0;
+}
+.product_pic .T {
+    height: 100%;
+    width: 23%;
+    transition: 0.8s;
+    float: left;
+    margin-left: 2%;
+    overflow: hidden;
+    position: relative; 
+    top: 100px;
+}
+.product_pic .T img {
+    height: 100%;
+    width: 100%;
+}
+.product_pic .TH {
+    height: 100%;
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+    overflow: hidden;
+    position: relative; 
+    top: 100px;
+}
+.product_pic .TH img {
+    height: 100%;
+    width: 100%;
+}
+.product_pic .FO {
+    height: 100%;
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+    overflow: hidden;
+    position: relative; 
+    top: 100px;
+}
+.product_pic .FO img {
+    height: 100%;
+    width: 100%;
+}
+.product_pic .F:hover::before{
+    transform: scaleX(1);
+} */
+/* product */
+.product_pic{
+    position: relative;
+    top: 100px;
+    width: 1200px;
+    height: 600px;
+    margin: 80px auto 0;
+    /* background: #262626; */
+
+}
+.product_pic .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+    border-radius: 40px;
+}
+.product_pic .box:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scaleX(0);
+    opacity: 0;
+    z-index: 1;
+}
+.product_pic .box:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+
+}
+.product_pic .box:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scaleY(0);
+    opacity: 0;
+    z-index: 1;
+
+}
+.product_pic .box:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+    
+}
+.product_pic .box .imgBox{
+    position: relative;
+}
+.product_pic .box .imgBox img 
+{
+    width: 100%;
+    transition: 0.5s;
+}
+.product_pic .box:hover .imgBox img {
+    opacity: 0.2;
+    transform: scale(1.2);
+}
+.product_pic .box .content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.product_pic .box .content h1{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-50px);
+    opacity: 0;
+    visibility: hidden;
+}
+.product_pic .box .content h3{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+}
+.product_pic .box:hover .content h1,
+.product_pic .box:hover .content h3
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+}
+.footer{
+    position: absolute;
+    
+    top: 3350px;
+    text-align: center;
+    font-size: 26px;
+    
+
+}
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+}
